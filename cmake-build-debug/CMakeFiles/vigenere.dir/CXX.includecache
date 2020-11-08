@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nikit/CLionProjects/vigenere/functions.cpp
+functions.h
+C:/Users/nikit/CLionProjects/vigenere/functions.h
+algorithm
+-
+iostream
+-
+string
+-
+
+C:/Users/nikit/CLionProjects/vigenere/functions.h
+algorithm
+-
+iostream
+-
+string
+-
+
+C:/Users/nikit/CLionProjects/vigenere/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+functions.h
+C:/Users/nikit/CLionProjects/vigenere/functions.h
+
