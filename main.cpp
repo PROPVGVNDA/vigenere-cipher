@@ -52,6 +52,7 @@ int main (int argc, char* argv[]) {
             std::getline(keyFile, myOp.key);
         } else {
             std::cout << "Program has been terminated. Could not open files." << std::endl;
+            return 1;
         }
         inputFile.close();
         keyFile.close();
